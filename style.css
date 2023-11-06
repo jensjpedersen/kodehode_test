@@ -1,7 +1,8 @@
 
 
 * { 
-background-color: gray
+background-color: gray;
+margin: 0;
 }
 
 
@@ -19,25 +20,58 @@ h1 {
 }
 
 p {
-    background-color: red;
-    color: yellow;
+    background-color: black;
+    color: white;
     font-size: 20px;
 }
 
 
 /*-------------------- Nav bar --------------------*/
+
+nav {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+div.nav_image_box {
+    background-color: purple;
+    /* display: flex; */
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-wrap: wrap;
+    /* display: flex; */
+}
+
+.nav_image {
+    width: 40%
+
+
+    /* width: 100px; */
+    /* height: 100px; */
+    /* width: 40%; */ 
+    /* background-color: blue; */
+    /* margin: 10px; */
+
+
+
+
+
+
+}
+
 .nav_items {
     float: right;
 }
 
-div.nav_images {
-    background-color: purple;
-    display: flex;
-    justify-content: space-between;
 
-
-
-}
 
 div.nav_items a {
     /* Change color */
@@ -59,10 +93,22 @@ div.nav_items a {
     text-decoration: none;
 }
 
-main div.text_container {
-    padding: 100px;
-    /* padding: 100px; */
+main {
+    display: flex;
+    justify-content: center;
+}
 
+main div.text_container {
+    /* padding: 100px; */
+    /* padding: 100px; */
+    width: 300px;
+    border: 15px dotted green;
+    margin: 60px;
+    padding: 50px;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
 
 
     /* Changes from horizontal to vertical */
@@ -70,10 +116,10 @@ main div.text_container {
 
 
     /* Center all elements inside environment */
-    align-items: center;
+    /* align-items: center; */
 
     /* gap between elements inside container */
-    gap: 5px; 
+    /* gap: 5px; */ 
     /* align-items: center; */
 }
 
