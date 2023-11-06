@@ -1,0 +1,39 @@
+
+
+* {
+ margin: 0;
+}
+
+
+nav {
+    height: 100px; 
+    background-color: black;
+
+
+
+
+}
+
+
+body {
+    /* background-color: #f1f1f1; */
+    /* background-image: "images/technology-network-background_34629-304.jpg" */
+    /* background-image: url("images/technology-network-background_34629-304.jpg"); */
+    background-image: url("images/photo-1557683304-673a23048d34.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 100vh;
+
+}
+
+main {
+    height: 100vh;
+
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+
+}

@@ -1,7 +1,7 @@
 
 
 * { 
-background-color: gray;
+/* background-color: gray; */
 margin: 0;
 }
 
@@ -39,13 +39,13 @@ nav {
 }
 
 div.nav_image_box {
-    background-color: purple;
+    /* background-color: purple; */
     /* display: flex; */
     width: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     flex-wrap: wrap;
     /* display: flex; */
 }
@@ -96,6 +96,7 @@ div.nav_items a {
 main {
     display: flex;
     justify-content: center;
+    background-color: gray;
 }
 
 main div.text_container {
